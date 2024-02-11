@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+</head>
+<body>
+
+    <!-- <h1>Namaste World!</h1> -->
+    
+
+
+
+</body>
+</html>
+
+
+
+
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction</title>
+    <style>
+        body
+        {
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color:#157dd2;
+        }
+    .box
+    {
+    width: 900px;
+    padding: 60px;
+    margin: 40px;
+    padding-top: 40px;
+    padding-right: 60px;
+    margin-left: 90px;
+    margin-top: 60px;
+    opacity: 0.5;
+    background-color:#d97fff;
+    border-radius: 250px;
+    color: 	#121eff;
+    font: 20px/1.4 "Helvetica Neue", Helvetica, Palatino ,serif;
+    }
+    p
+    {
+        font-family:Palatino ,serif;
+        font-style: oblique;
+        font-size: large;
+        font-size: large;
+    }
+    label
+    {
+        font-family:Palatino ,serif;
+        font-style: oblique;
+        font-size: large;
+        font-size: large;
+    }
+    input
+    {
+        border-radius: 15px;
+        color:   #191970;
+        text-align:center;
+        align-items:flex-end;
+        margin-left: 80px;
+        font-size:large;
+    }
+    #output
+    {
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 8px;
+        width: 200px;
+        font-weight: bold;
+    }
+    </style>
+</head>
+        <body>
+            <div class="box">
+            <h1>Heart Disease Prediction</h1>
+            <form action="output" method="POST">
+                <label for="Sex" style="padding-right: 100px;">Gender: </label>
+                <select name="Sex" id="Sex">
+                    <option value="none"></option>
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                </select>
+                <p> Age:
+                <input type="number" id="age" name="age" min="1" max = "100" style="width: 100px;" placeholder=" e.g 1-100">
+                </p>
+                <label for="ExcerciseAngina" style="padding-right: 100px;">Excercise Angina: </label>
+                <select name="ExcerciseAngina" id="ExcerciseAngina">
+                    <option value="none"></option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <br><br>
+                <label for="HeartDisease" style="padding-right: 100px;"> Heart Disease: </label>
+                <select name="HeartDisease" id="heart-disease">
+                    <option value="none"></option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                    <option value="Unknown">Unknown</option>
+
+                    </select>
+                <br><br>
+                <label for="ChestPainType" style="padding-right: 100px;">Chest Pain Type: </label>
+                <select name="ChestPainType" id="ChestPainType">
+                    <option value="none"></option>
+                    <option value="ASY">ASY</option>
+                    <option value="ATA">ATA</option>
+                    <option value="NAP">NAP</option>
+                    <option value="TA">TA</option>
+                    <option value="none">none</option>
+                    </select>
+                <br><br>
+                <label for="RestingECG" style="padding-right: 100px;">Resting ECG: </label>
+                <select name="RestingECG" id="RestingECG">
+                        <option value="none"></option>
+                        <option value="LVH">LVH</option>
+                        <option value="Normal">Normal</option>
+                        <option value="ST">ST</option>
+                    </select>
+                <br>
+                <p>Cholesterol Levels:
+                <input type="number" id="Cholesterol" name="Cholesterol" min="0" max="400" style="width: 150px;" placeholder=" e.g 20-300"></p>
+                <p>Resting BP Levels:
+                  <input type="number" id="RestingBP" name="RestingBP" min="0" max="400" style="width: 150px;" placeholder=" e.g 20-300"></p>
+                <p>FastingBS Levels:
+                    <input type="number" id="FastingBS" name="FastingBS" min="0" max="400" style="width: 150px;" placeholder=" e.g 20-300"></p>
+                  <p>Max Heart Rate:
+                    <input type="number" id="MaxHR" name="MaxHR" min="0" max="400" style="width: 150px;" placeholder=" e.g 20-300"></p>
+                <p> Oldpeak:
+                <input type="number" id="Oldpeak" name="Oldpeak" min="0" step="0.1" style="width: 150px;" placeholder="e.g 18-45"></p>
+                <label for="ST_Slope" style="padding-right: 100px;">ST_Slope: </label>
+                <select name="ST_Slope" id="ST_Slope">
+                    <option value="none"></option>
+                    <option value="ST_Slope_Up">Up</option>
+                    <option value="ST_Slope_Flat">Flat</option>
+                    <option value="ST_Slope_Down">Down</option> 
+                    <option value="Unknown">Unknown</option>
+                    
+                    </select>
+                <br><br>
+                <input type="submit" value="SUBMIT" id="output">
+                FOR RESULTS
+                <!-- <p style="font-size: 18px;"> {{message}} </p>
+                {% endfor %}  -->
+             </form>
+        </div>
+    </body>
+</html> 
+               
