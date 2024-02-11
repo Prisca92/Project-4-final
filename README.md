@@ -1,6 +1,22 @@
 # Project-4-final
 
-Steps take 
+Project Description
+
+Contributors:
+Prisca Gossin
+Mehrin Khan 
+
+
+
+Overview:
+
+Our objective is to create a Machine learning model for detecting heart failure by focusing on various causative attributes. The aim is to predict early signs of heart failure in order to identify individuals who might be at risk of developing heart problems. By analyzing relevant data, we can anticipate and catch potential issues early on based on certain variables or features. This approach not only improves health outcomes but also ensures that healthcare resources are used more efficiently.
+
+
+                                  Process
+
+
+
 1. Reading data 
 
 This is simply reading the data, specifying the type of variables, as well as which variable is the target to predict.
