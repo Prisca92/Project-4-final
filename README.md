@@ -16,7 +16,7 @@ Built With
 
 Overview:
 
-Our objective is to create a machine learning model for detecting heart disease by focusing on various causative attributes, aiming to predict early signs of heart failure to identify individuals at risk. Analyzing relevant data allows us to anticipate and catch potential issues early on based on specific variables or features, improving health outcomes and ensuring efficient use of healthcare resources. Health care professionals will provide recommendations for managing and reducing the risk of heart disease, including lifestyle modifications and preventive measures, to improve overall health and minimize disease risk for at-risk patients.
+Our objective is to create a machine learning model for detecting heart disease by focusing on various causative attributes, aiming to predict early signs of heart disease to identify individuals at risk. Analyzing relevant data allows us to anticipate and catch potential issues early on based on specific variables or features, improving health outcomes and ensuring efficient use of healthcare resources. Health care professionals will provide recommendations for managing and reducing the risk of heart disease, including lifestyle modifications and preventive measures, to improve overall health and minimize disease risk for at-risk patients.
                                   
                                   Process
 
@@ -57,7 +57,7 @@ To deploy the model with flask we needed to first save our best fit model by usi
 
 5.Inference possible integration with Healthcare system
 
-After model deployment, the model is accessible from a Web-base we created usging HTML and CSS.
+After model deployment, the model is accessible from a Web-based application we created usging HTML and CSS.
  In this example, flask was used in conjunction with the training model because of it’s ability to return the models prediction as a response to individuals incoming input/request. The purpose of Integrating the model predictions into the healthcare system workflow is to allow healthcare professionals to access and utilize the predictions seamlessly. This will in turn provide actionable insights and recommendations based on the model's predictions, such as lifestyle modifications, preventive measures, or medical interventions.
  
  
@@ -72,7 +72,7 @@ Conclusion:
 
 Evaluation
     Utilized accuracy scores, confusion matrix and classification reports to
-    compare to access the performance of all 3 models. We ultimately selected model 2 as the final model due to its overall superior performance. And used this model to create 
+    compare to access the performance of all 3 models. We ultimately selected model 2 as the final model due to its overall superior performance. And used this model to create a Web application.
 
 Things to consider or try the next time around:
 
