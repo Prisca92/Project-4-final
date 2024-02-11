@@ -16,9 +16,8 @@ Built With
 
 Overview:
 
-Our objective is to create a Machine learning model for detecting heart failure by focusing on various causative attributes. The aim is to predict early signs of heart failure in order to identify individuals who might be at risk of developing heart problems. By analyzing relevant data, we can anticipate and catch potential issues early on based on certain variables or features. This approach not only improves health outcomes but also ensures that healthcare resources are used more efficiently.
-
-
+Our objective is to create a machine learning model for detecting heart disease by focusing on various causative attributes, aiming to predict early signs of heart failure to identify individuals at risk. Analyzing relevant data allows us to anticipate and catch potential issues early on based on specific variables or features, improving health outcomes and ensuring efficient use of healthcare resources. Health care professionals will provide recommendations for managing and reducing the risk of heart disease, including lifestyle modifications and preventive measures, to improve overall health and minimize disease risk for at-risk patients.
+                                  
                                   Process
 
 
@@ -56,12 +55,12 @@ The model building process finds the model that fits best for the training�
 The model deployment step makes the machine-learning model available to make predictions based on an individuals health .
 To deploy the model with flask we needed to first save our best fit model by using the Jblid  method which is an alternative to model saving because it is able to operate with large arrays and I find it to be a simple model .We used the dump functionality to save the model to the model_jlib file.Then we needed to load the model by providing the file object to the load option storing it in the m_jlib variable , which can later be used for predictions. We then called the predict method on m_jlib and passed it a 2d array with values of 5000. To integrate Flask with an ML model, you typically load the trained model in your Flask application. Then, you define routes and views to handle requests, preprocess input data, and pass it to the model for predictions.
 
-5.Inference
+5.Inference possible integration with Healthcare system
 
-After model deployment, the model is accessible from a Web-base we created usging HTML and CSS
- In this example, flask was used  with a machine learning model because of it’s ability to return the models prediction as a response to individuals incoming request.
-
-
+After model deployment, the model is accessible from a Web-base we created usging HTML and CSS.
+ In this example, flask was used in conjunction with the training model because of it’s ability to return the models prediction as a response to individuals incoming input/request. The purpose of Integrating the model predictions into the healthcare system workflow is to allow healthcare professionals to access and utilize the predictions seamlessly. This will in turn provide actionable insights and recommendations based on the model's predictions, such as lifestyle modifications, preventive measures, or medical interventions.
+ 
+ 
 A Tableau dashboard was also built with optimal variables to display …………
 
 
@@ -73,8 +72,7 @@ Conclusion:
 
 Evaluation
     Utilized accuracy scores, confusion matrix and classification reports to
-    compare to access the performance of all 3 models
-     We ultimately selected model 2 as the final model due to its overall superior performance.
+    compare to access the performance of all 3 models. We ultimately selected model 2 as the final model due to its overall superior performance. And used this model to create 
 
 Things to consider or try the next time around:
 
@@ -82,4 +80,5 @@ Dive in deeper into feature importance to re evaluate the performance of the ran
 With the data already being pretty balanced I don’t think it was necessary to use BalancedforestClassifier, random forest could’ve been the model tested instead.
 
 
-
+  
+    
