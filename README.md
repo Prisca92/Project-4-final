@@ -62,7 +62,8 @@ Original Data
 
 
 
-![Feature_Description]<img width="613" alt="Screenshot 2024-02-13 at 4 40 36 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/a0a58ceb-7a72-4df5-8058-3a569b8a8d54">
+Feature_Description
+<img width="613" alt="Screenshot 2024-02-13 at 4 40 36 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/a0a58ceb-7a72-4df5-8058-3a569b8a8d54">
 
 
                         DATA PRE-PREOCESSING
@@ -79,11 +80,15 @@ We processed the data by:
 Examine NAN values:
 
 <img width="528" alt="Screenshot 2024-02-12 at 8 58 15 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/3a8c372f-d5ad-46ca-8c6c-e7b203bde925">
+
+
 Examine unique values
 <img width="437" alt="Screenshot 2024-02-12 at 8 56 46 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/9090a855-d230-4745-aac3-f6e7ab7a0a6a">
-Histogram
 
+
+Histogram
 <img width="591" alt="Screenshot 2024-02-12 at 8 57 29 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/421c986d-320d-42dc-afe7-a856cd5113cc">
+
 
 Normalizing data using git.dummies
 
@@ -103,6 +108,7 @@ The model building process finds the model that fits best for the training�
 
 
 Confusion Matrix
+
 <img width="530" alt="Screenshot 2024-02-13 at 4 45 14 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/8c93e7ca-32a7-4c72-8db1-1f630200f718">
 
 
@@ -120,10 +126,11 @@ Key insights when evelautaing the Randomforest model's effectiveness in its clas
     
 
 
-Feature_importance
+Feature_Importance
 <img width="720" alt="Screenshot 2024-02-13 at 4 45 40 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/877a6141-ebc6-4688-8149-846967a0c2db">
 
-Classification_report
+
+Classification_Report
 <img width="513" alt="Screenshot 2024-02-13 at 12 52 35 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/85f9d404-a2b0-4875-b5bf-895ce65ade87">
 
 
@@ -158,12 +165,15 @@ The model achieves an accuracy of 0.90, indicating that it correctly predicts th
 Overall, this classification report suggests that the model performs well in distinguishing between the two classes, with high precision, recall, and F1-score values. The high accuracy and balanced performance metrics indicate that the model is effective in its classification task.
 
 
-Heart Disease vs Cholesterol correlation
+Heart Disease vs Cholesterol Correlation
 
 <img width="482" alt="Screenshot 2024-02-13 at 12 13 47 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/16bc86c2-33f8-415d-bf53-2d19fea17629">
 
-See final model:
+See final model
+
 Learning Curve
+
+
 <img width="471" alt="Screenshot 2024-02-13 at 4 46 17 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/05346c0b-ce51-4853-afc6-ba01dbc7fe0a">
 
 
