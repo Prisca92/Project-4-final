@@ -91,6 +91,7 @@ Search for Missing Values
 
 
 Examine unique values
+
 <img width="437" alt="Screenshot 2024-02-12 at 8 56 46 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/9090a855-d230-4745-aac3-f6e7ab7a0a6a">
 
 
@@ -128,10 +129,12 @@ Key insights when evelautaing the Randomforest model's effectiveness in its clas
     
 
 Feature_Importance
+
 <img width="720" alt="Screenshot 2024-02-13 at 4 45 40 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/877a6141-ebc6-4688-8149-846967a0c2db">
 
 
 Classification_Report
+
 <img width="513" alt="Screenshot 2024-02-13 at 12 52 35 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/85f9d404-a2b0-4875-b5bf-895ce65ade87">
 
 
