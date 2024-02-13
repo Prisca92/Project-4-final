@@ -189,7 +189,6 @@ Heart Disease vs Age
 <img width="484" alt="Screenshot 2024-02-13 at 6 27 32 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/7174e18d-94ba-4ce2-a44d-9943f9b0c7b6">
 
 
-
 For more details see our final model
 
 
