@@ -20,9 +20,9 @@ Factors:
 
 Target variable: Heart disease 
 
-Geographical factors:
 
 Questions to investigate: 
+
 
 What are the key features or attributes suspected to be associated with heart disease?
 
@@ -45,7 +45,7 @@ Is there any connection between age, cholesterol, and chest paint type when it c
 
 
 
-1. Data Collection/ Reading data
+                     Data Collection/ Reading data
 
 This is simply reading the data, specifying the type of variables, as well as which variable is the target to predict.
 
@@ -57,7 +57,7 @@ screenshot showing feature description:
 
 
 
-1.Data Pre-processing
+                        Data Pre-processing
 
 This step was used to make the original data ready for model building. This Data pre-processing step included data imputation, variable scaling, converting categorical variable to numerical. In general, it is a series of tasks to make original data consumable and understandable for machine-learning models. 
 
@@ -74,7 +74,7 @@ snippet normalizing data
 
 
 
-2.Model building and selection
+                     Model building and selection
 
 Supervised learning:
 
@@ -92,7 +92,7 @@ confusion matix snippet:
                                                                                     Evaluation
    
     
-    Key insights when evelautaing the randomforect model's effectiveness in its classification task.
+Key insights when evelautaing the Randomforest model's effectiveness in its classification task.
     
     Model 1: Over all superior performance.
     
@@ -138,10 +138,10 @@ See final model:
 Tableau Link: 
         
         
-        conclusion:
-Things to consider or try the next time around:
+                         conclusion:
+           Things to consider for further analysis
 
-Dive in deeper into feature importance to re evaluate the performance of the random forest model to identify interactions between features.
-With the data already being pretty balanced I don’t think it was necessary to use BalancedforestClassifier, random forest could’ve been the model tested instead.
-
+- Dive in deeper into feature importance to re-evaluate the performance of the random forest model to identify interactions between features.
+ - Focus on a specific region or compare certain regions this would allow for further geographical analysis in relations to age,sex,resting blood pressure(environmental factors such as altitude,temperature,diet, physical activity patterns,stress),cholesterol(dietary habits),fasting blood sugar(geographical variationin diet, physical activity),max heart rate(altitude and temp), and excersice induced angina(air quality),oldpeak(socioeconomic factors). Understanding how these geographical factors interact with individual characteristics and lifestyle behaviors can provide insights into regional disparities in heart disease risk and guide targeted interventions and public health initiatives.
+ 
 
