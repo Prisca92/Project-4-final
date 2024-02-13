@@ -61,7 +61,7 @@ Original Data
 
 
 
-screenshot showing feature description:
+
 ![Feature_Description]<img width="613" alt="Screenshot 2024-02-13 at 4 40 36 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/a0a58ceb-7a72-4df5-8058-3a569b8a8d54">
 
 
