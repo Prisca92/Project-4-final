@@ -52,8 +52,17 @@ This is simply reading the data, specifying the type of variables, as well as wh
 Data was collected from Kaggle: 
 
 snippet of code:
+![original_Data](/Users/priscagossin/Documents/Challenges:Projects/Project-4-final/Screenshot 2024-02-10 at 11.53.05 AM.png)
+
+
+
+
+
+
+
 
 screenshot showing feature description:
+![Feature_Description](/Users/priscagossin/Documents/Challenges:Projects/Project-4-final/Screenshot 2024-02-13 at 4.40.36 AM.png)
 
 
 
@@ -68,7 +77,16 @@ We processed the data by:
 -using pd.get_dummies() to convert categorical data to numeric
 -Converting orginal data which was in an excel sheet to a csv file
 
-snippet normalizing data
+Examine values:
+![Examins_values](/Users/priscagossin/Documents/Challenges:Projects/Project-4-final/Screenshot 2024-02-12 at 8.58.15 PM.png)
+
+Examine unique values
+![Examine_unique_values](/Users/priscagossin/Documents/Challenges:Projects/Project-4-final/Screenshot 2024-02-12 at 8.56.46 PM.png)
+Histogram
+![hist_plot](/Users/priscagossin/Documents/Challenges:Projects/Project-4-final/Screenshot 2024-02-12 at 8.57.29 PM.png)
+
+Normalizing data using git.dummies
+![Normalized_data](/Users/priscagossin/Documents/Challenges:Projects/Project-4-final/Screenshot 2024-02-13 at 12.54.20 PM.png)
 
 
 
@@ -81,10 +99,11 @@ Supervised learning:
 The model building process finds the model that fits best for the training data set in terms of prediction accuracy. One of the most popular approaches to achieve this goal is to iterate over multiple related machine learning models to see which one is the best fit. For this project we opted for a supervised random forest regression model to address our task. Supervised learning was our preference because we have labeled data, where features are organized in a tabular format alongside corresponding outputs. This setup allows us to train the model to make predictions based on input features. We focused on target variables, also known as dependent variables, which are the outcomes we aim to predict(at-risk for heart disease). In our scenario, our target variable is the extent to which each feature contributes to the risk of heart disease.Wused three regression model classes – RandomForest, DecisionTree and Linear Regression – are fitted, and the one with highest r-square is picked as the best fit.  Both Randomforest and the linear regression model provided an accuracy score of 90%. Ultimately Randomforest classifier was the training model we choose as the best fit as it is the most reliable an accurate model due to its high accuracy, feature important and versatility. In the Medical sector when making predictions it is best to use the most reliable machine learning model for prediction purposes. This system ultimately help suggest precautions to the user based on output. To better evaluate the random forest we used confusion matrix  which is a table that shows how many instances of each class were correctly or incorrectly predicted.Helps identify source errors like false positives and false negatives which we did not encounter. 
 
 
-random classifier code snippet:
+ 
 
 
 confusion matix snippet:
+![Confusion_Matrix](/Users/priscagossin/Documents/Challenges:Projects/Project-4-final/Screenshot 2024-02-13 at 4.45.14 AM.png)
 
 
 
@@ -98,8 +117,11 @@ Key insights when evelautaing the Randomforest model's effectiveness in its clas
     
     
     
-    Add classification model snippet:
 
+![]()
+![Feature_importance](/Users/priscagossin/Documents/Challenges:Projects/Project-4-final/Screenshot 2024-02-13 at 4.45.40 AM.png)
+
+![Classification_report](/Users/priscagossin/Documents/Challenges:Projects/Project-4-final/Screenshot 2024-02-13 at 12.52.35 PM.png)
 
 This classification report provides a comprehensive evaluation of a binary classification model's performance. Here's the analysis of each metric:
 
@@ -131,7 +153,12 @@ Accuracy measures the overall correctness of the model's predictions, regardless
 The model achieves an accuracy of 0.90, indicating that it correctly predicts the class label for 90% of the instances in the dataset.
 Overall, this classification report suggests that the model performs well in distinguishing between the two classes, with high precision, recall, and F1-score values. The high accuracy and balanced performance metrics indicate that the model is effective in its classification task.
 
+
+heart disease vs cholesterol
+![correlation](/Users/priscagossin/Documents/Challenges:Projects/Project-4-final/Screenshot 2024-02-13 at 12.13.47 PM.png)
+
 See final model:
+![Linear_curve](/Users/priscagossin/Documents/Challenges:Projects/Project-4-final/Screenshot 2024-02-13 at 4.46.17 AM.png)
 
 
 
