@@ -51,8 +51,8 @@ This is simply reading the data, specifying the type of variables, as well as wh
 
 Data was collected from Kaggle: 
 
-snippet of code:
-![original_Data](/Users/priscagossin/Documents/Challenges:Projects/Project-4-final/Screenshot 2024-02-10 at 11.53.05 AM.png)
+Original Data
+<img width="788" alt="Screenshot 2024-02-10 at 11 53 05 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/65335be8-5fe5-4888-bb62-a1a3d2c2264c">
 
 
 
