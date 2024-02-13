@@ -183,7 +183,11 @@ Heart Disease vs Cholesterol Correlation
 <img width="482" alt="Screenshot 2024-02-13 at 12 13 47 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/16bc86c2-33f8-415d-bf53-2d19fea17629">
 
 
-Add three more graph examples
+Heart Disease vs Age 
+
+
+<img width="484" alt="Screenshot 2024-02-13 at 6 27 32 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/7174e18d-94ba-4ce2-a44d-9943f9b0c7b6">
+
 
 
 For more details see our final model
