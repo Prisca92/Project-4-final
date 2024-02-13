@@ -2,6 +2,9 @@
 
 Project Description
 
+Machine Learning Integration 
+Heart Disease Risk Prediction
+
 Contributors:
 Prisca Gossin,
 Mehrin Khan 
