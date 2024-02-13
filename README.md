@@ -7,10 +7,7 @@ Prisca Gossin,
 Mehrin Khan 
 
 Built With
-* Python and Packages (eg. scikit-learn, matplotlib, searborn, m_jlib etc.)
-* Flask
-* HTML
-* CSS
+* Python and Packages (eg. scikit-learn, matplotlib)
 * Tableau
 
 
@@ -36,6 +33,7 @@ This step was used to make the original data ready for model building. This
 
 We processed the data by:
 -Normalizing the data
+/Users/priscagossin/Desktop/Screenshot 2024-02-10 at 11.53.05 AM.png
 -Renaming columns
 -Transforming columns to be numeric
 -using pd.get_dummies() to convert categorical data to numeric
@@ -44,28 +42,23 @@ We processed the data by:
 Resulting data: 918 features
 
 
-2.Model building and selection
+/Users/priscagossin/Desktop/Screenshot 2024-02-12 at 8.56.46 PM.png
+/Users/priscagossin/Desktop/Screenshot 2024-02-12 at 8.57.29 PM.png
 
+
+/Users/priscagossin/Desktop/Screenshot 2024-02-12 at 8.58.15 PM.png
+
+
+/Users/priscagossin/Desktop/Screenshot 2024-02-12 at 8.56.46 PM.png
+
+2.Model building and selection
+/Users/priscagossin/Desktop/Screenshot 2024-02-12 at 10.03.16 PM.png
 Supervised learning:
 
 The model building process finds the model that fits best for the training data set in terms of prediction accuracy. One of the most popular approaches to achieve this goal is to iterate over multiple related machine learning models to see which one is the best fit. For this project we used three regression model classes – BalancedRandomForest, DecisionTree and Linear Regression – are fitted, and the one with highest r-square is picked as the best fit.  Both BalancedRandomforest and the linear regression model provided an accuracy score of 90%. Ultimately BalancedRandomforest classifier was the model we choose as the best fit as it is the most reliable an accurate model due to its high accuracy, feature important and versatility. In the Medical sector when making predictions it is best to use the most reliable machine learning model for prediction purposes. This system could also suggest precautions to the user. To better evaluate the random forest we used confusion matrix  which is a table that shows how many instances of each class were correctly of incorrectly predicted.Helps identify source errors like false positives and false negatives which we did not encounter.
 
-3.Model Deployment With Flask
 
-The model deployment step makes the machine-learning model available to make predictions based on an individuals health .
-To deploy the model with flask we needed to first save our best fit model by using the Jblid  method which is an alternative to model saving because it is able to operate with large arrays and I find it to be a simple model .We used the dump functionality to save the model to the model_jlib file.Then we needed to load the model by providing the file object to the load option storing it in the m_jlib variable , which can later be used for predictions. We then called the predict method on m_jlib and passed it a 2d array with values of 5000. To integrate Flask with an ML model, you typically load the trained model in your Flask application. Then, you define routes and views to handle requests, preprocess input data, and pass it to the model for predictions.
-
-5.Inference possible integration with Healthcare system
-
-After model deployment, the model is accessible from a Web-based application we created usging HTML and CSS.
- In this example, flask was used in conjunction with the training model because of it’s ability to return the models prediction as a response to individuals incoming input/request. The purpose of Integrating the model predictions into the healthcare system workflow is to allow healthcare professionals to access and utilize the predictions seamlessly. This will in turn provide actionable insights and recommendations based on the model's predictions, such as lifestyle modifications, preventive measures, or medical interventions.
- 
- 
-A Tableau dashboard was also built with optimal variables to display …………
-
-
-Tableau Link: [
-](https://public.tableau.com/app/profile/mehrin.khan/viz/HeartDisease_17074856563830/Sheet1#1)https://public.tableau.com/app/profile/mehrin.khan/viz/HeartDisease_17074856563830/Sheet1#1
+Tableau Link: 
 
 
 Conclusion:
@@ -76,7 +69,7 @@ Evaluation
 
 Things to consider or try the next time around:
 
-Dive in deeper into feature importance to re evaluate the performance of the random forest model to identify interactions between feature.
+Dive in deeper into feature importance to re evaluate the performance of the random forest model to identify interactions between features.
 With the data already being pretty balanced I don’t think it was necessary to use BalancedforestClassifier, random forest could’ve been the model tested instead.
 
 
