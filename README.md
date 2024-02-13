@@ -41,11 +41,11 @@ Is there any connection between age, cholesterol, and chest paint type when it c
                                   
                                   
                                   
-                                  Process
+                MACHINE LEARNING TRAINING MODEL PROCESS
 
 
 
-                     Data Collection/ Reading data
+                     DATA COLLECTION/READING DATA
 
 This is simply reading the data, specifying the type of variables, as well as which variable is the target to predict.
 
@@ -57,7 +57,7 @@ screenshot showing feature description:
 
 
 
-                        Data Pre-processing
+                        DATA PRE-PREOCESSING
 
 This step was used to make the original data ready for model building. This Data pre-processing step included data imputation, variable scaling, converting categorical variable to numerical. In general, it is a series of tasks to make original data consumable and understandable for machine-learning models. 
 
@@ -74,7 +74,7 @@ snippet normalizing data
 
 
 
-                     Model building and selection
+                     MODEL BUILDING AND SELECTION
 
 Supervised learning:
 
@@ -89,7 +89,7 @@ confusion matix snippet:
 
 
 
-                                                                                    Evaluation
+                                EVALUATION
    
     
 Key insights when evelautaing the Randomforest model's effectiveness in its classification task.
@@ -138,8 +138,9 @@ See final model:
 Tableau Link: 
         
         
-                         conclusion:
-           Things to consider for further analysis
+                         CONCLUSION
+                         
+Things to consider for further analysis
 
 - Dive in deeper into feature importance to re-evaluate the performance of the random forest model to identify interactions between features.
  - Focus on a specific region or compare certain regions this would allow for further geographical analysis in relations to age,sex,resting blood pressure(environmental factors such as altitude,temperature,diet, physical activity patterns,stress),cholesterol(dietary habits),fasting blood sugar(geographical variationin diet, physical activity),max heart rate(altitude and temp), and excersice induced angina(air quality),oldpeak(socioeconomic factors). Understanding how these geographical factors interact with individual characteristics and lifestyle behaviors can provide insights into regional disparities in heart disease risk and guide targeted interventions and public health initiatives.
