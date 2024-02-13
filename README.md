@@ -56,28 +56,31 @@ Original Data
 
 
 
-
-
-
-
-
-
 Feature_Description
 <img width="613" alt="Screenshot 2024-02-13 at 4 40 36 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/a0a58ceb-7a72-4df5-8058-3a569b8a8d54">
 
-
+Model Selection
+The Random Forest Classifier
+                        
+                        
+                        Exploratory Data Analysis
                         DATA PRE-PREOCESSING
 
-This step was used to make the original data ready for model building. This Data pre-processing step included data imputation, variable scaling, converting categorical variable to numerical. In general, it is a series of tasks to make original data consumable and understandable for machine-learning models. 
+This step was used to make the original data ready for model building. This Data pre-processing step included variable scaling, converting categorical variable to numerical. In general, it is a series of tasks to make original data consumable and understandable for machine-learning models. 
 
 We processed the data by:
 -Normalizing the data
 -Renaming columns
--Transforming columns to be numeric
--using pd.get_dummies() to convert categorical data to numeric
--Converting orginal data which was in an excel sheet to a csv file
+-Transforming columns to be numeric values
+-using pd.get_dummies() to convert categorical data to numeric values
+-Converting orginal data to a csv file
 
-Examine NAN values:
+
+Data Ditribution using Histogram graph
+<img width="591" alt="Screenshot 2024-02-12 at 8 57 29 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/421c986d-320d-42dc-afe7-a856cd5113cc">
+
+
+Search for Missing Values
 
 <img width="528" alt="Screenshot 2024-02-12 at 8 58 15 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/3a8c372f-d5ad-46ca-8c6c-e7b203bde925">
 
@@ -85,9 +88,6 @@ Examine NAN values:
 Examine unique values
 <img width="437" alt="Screenshot 2024-02-12 at 8 56 46 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/9090a855-d230-4745-aac3-f6e7ab7a0a6a">
 
-
-Histogram
-<img width="591" alt="Screenshot 2024-02-12 at 8 57 29 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/421c986d-320d-42dc-afe7-a856cd5113cc">
 
 
 Normalizing data using git.dummies
