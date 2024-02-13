@@ -2,7 +2,8 @@
 
 Project Description
 
-Machine Learning Integration 
+Machine Learning Integration, 
+
 Heart Disease Risk Prediction
 
 Contributors:
@@ -24,17 +25,17 @@ Factors:
 Target variable: Heart disease 
 
 
-Questions to investigate: 
+Questions to Investigate: 
 
 
 What are the key features or attributes suspected to be associated with heart disease?
 
-what geographical factors contribute to being at risk of heart disease?
+
+What geographical factors contribute to being at risk of heart disease?
 
 
 Are there any patterns or relationships between the features and the target variable (heart disease)?
 
-we explored coorelation between individual features and the target variable can provide initial insights into potential predictors of heart disease.
 
 Is there any connection between age, cholesterol, and chest paint type when it comes to heart disease?
                                   
@@ -55,15 +56,16 @@ This is simply reading the data, specifying the type of variables, as well as wh
 Data was collected from Kaggle: 
 
 Original Data
+
 <img width="788" alt="Screenshot 2024-02-10 at 11 53 05 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/65335be8-5fe5-4888-bb62-a1a3d2c2264c">
 
 
 
 Feature_Description
+
 <img width="613" alt="Screenshot 2024-02-13 at 4 40 36 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/a0a58ceb-7a72-4df5-8058-3a569b8a8d54">
 
-Model Selection
-The Random Forest Classifier
+
                         
                         
                         Exploratory Data Analysis
@@ -101,16 +103,17 @@ Normalizing data using git.dummies
 
 
                      MODEL BUILDING AND SELECTION
+RandomForestClassifier
+Supervised learning
 
-Supervised learning:
-
-The model building process finds the model that fits best for the training data set in terms of prediction accuracy. One of the most popular approaches to achieve this goal is to iterate over multiple related machine learning models to see which one is the best fit. For this project we opted for a supervised random forest regression model to address our task. Supervised learning was our preference because we have labeled data, where features are organized in a tabular format alongside corresponding outputs. This setup allows us to train the model to make predictions based on input features. We focused on target variables, also known as dependent variables, which are the outcomes we aim to predict(at-risk for heart disease). In our scenario, our target variable is the extent to which each feature contributes to the risk of heart disease.Wused three regression model classes – RandomForest, DecisionTree and Linear Regression – are fitted, and the one with highest r-square is picked as the best fit.  Both Randomforest and the linear regression model provided an accuracy score of 90%. Ultimately Randomforest classifier was the training model we choose as the best fit as it is the most reliable an accurate model due to its high accuracy, feature important and versatility. In the Medical sector when making predictions it is best to use the most reliable machine learning model for prediction purposes. This system ultimately help suggest precautions to the user based on output. To better evaluate the random forest we used confusion matrix  which is a table that shows how many instances of each class were correctly or incorrectly predicted.Helps identify source errors like false positives and false negatives which we did not encounter. 
+The model building process finds the model that fits best for the training data set in terms of prediction accuracy. One of the most popular approaches to achieve this goal is to iterate over multiple related machine learning models to see which one is the best fit. For this project we opted for a supervised random forest model to address our task. Supervised learning was our preference because we have labeled data, where features are organized in a tabular format alongside corresponding outputs. This setup allows us to train the model to make predictions based on input features. We focused on target variables, also known as dependent variables, which are the outcomes we aim to predict(heart disease). In our scenario, our target variable is the extent to which each feature contributes to the risk of heart disease.Wused three regression model classes – RandomForest, DecisionTree and Linear Regression – are fitted, and the one with highest r-square is picked as the best fit.  Both Randomforest and the linear regression model provided an accuracy score of 90%. Ultimately Randomforest classifier was the training model we choose as the best fit as it is the most reliable an accurate model due to its high accuracy, feature important and versatility. In the Medical sector when making predictions it is best to use the most reliable machine learning model for prediction purposes. This system ultimately help suggest precautions to the user based on output. To better evaluate the random forest we used confusion matrix  which is a table that shows how many instances of each class were correctly or incorrectly predicted. Helps identify source errors like false positives and false negatives which we can see below. 
 
 
  
 
 
 Confusion Matrix
+False positives and false negatives?
 
 <img width="530" alt="Screenshot 2024-02-13 at 4 45 14 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/8c93e7ca-32a7-4c72-8db1-1f630200f718">
 
@@ -121,13 +124,8 @@ Confusion Matrix
                                 EVALUATION
    
     
-Key insights when evelautaing the Randomforest model's effectiveness in its classification task.
+Key insights when evelautaing the Randomforest model's effectiveness in its classification task.   
     
-    Model 1: Over all superior performance.
-    
-    
-    
-
 
 Feature_Importance
 <img width="720" alt="Screenshot 2024-02-13 at 4 45 40 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/877a6141-ebc6-4688-8149-846967a0c2db">
@@ -145,18 +143,22 @@ Precision measures the proportion of true positive predictions among all positiv
 For class 0 (presumably negative instances), the precision is 0.88, indicating that 88% of the instances predicted as negative are indeed negative.
 For class 1 (presumably positive instances), the precision is 0.92, indicating that 92% of the instances predicted as positive are indeed positive.
 Overall, the model has high precision for both classes, suggesting that it makes relatively few false positive predictions.
+
 Recall:
 
 Recall measures the proportion of true positive predictions among all actual positive instances in the dataset.
 For class 0, the recall is 0.88, indicating that 88% of the actual negative instances are correctly identified by the model.
 For class 1, the recall is 0.92, indicating that 92% of the actual positive instances are correctly identified by the model.
 The model exhibits high recall for both classes, suggesting that it captures a large portion of the positive instances in the dataset.
+
 F1-score:
 
 The F1-score is the harmonic mean of precision and recall, providing a balanced measure of a model's performance.
 For class 0, the F1-score is 0.88, indicating a balanced performance between precision and recall for negative instances.
 For class 1, the F1-score is 0.92, indicating a balanced performance between precision and recall for positive instances.
 The weighted average F1-score is also 0.90, suggesting a good overall balance between precision and recall across both classes.
+
+
 Support:
 
 Support refers to the number of actual occurrences of each class in the dataset.
@@ -165,7 +167,12 @@ Accuracy:
 
 Accuracy measures the overall correctness of the model's predictions, regardless of class.
 The model achieves an accuracy of 0.90, indicating that it correctly predicts the class label for 90% of the instances in the dataset.
-Overall, this classification report suggests that the model performs well in distinguishing between the two classes, with high precision, recall, and F1-score values. The high accuracy and balanced performance metrics indicate that the model is effective in its classification task.
+Overall, this classification report suggests that the model performs well in distinguishing between the two classes, with high precision, recall, and F1-score values. The high accuracy and balanced performance metrics indicate that the model is effective in its classification task.Over all superior performance.
+
+
+
+-We explored coorelation between individual features and the target variable can provide initial insights into potential predictors of heart disease.
+
 
 
 Heart Disease vs Cholesterol Correlation
@@ -173,10 +180,7 @@ Heart Disease vs Cholesterol Correlation
 <img width="482" alt="Screenshot 2024-02-13 at 12 13 47 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/16bc86c2-33f8-415d-bf53-2d19fea17629">
 
 
-Learning Curve
-
-
-<img width="471" alt="Screenshot 2024-02-13 at 4 46 17 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/05346c0b-ce51-4853-afc6-ba01dbc7fe0a">
+Add three more graph examples
 
 
 For more details see our final model
