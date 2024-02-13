@@ -172,13 +172,14 @@ Heart Disease vs Cholesterol Correlation
 
 <img width="482" alt="Screenshot 2024-02-13 at 12 13 47 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/16bc86c2-33f8-415d-bf53-2d19fea17629">
 
-See final model
 
 Learning Curve
 
 
 <img width="471" alt="Screenshot 2024-02-13 at 4 46 17 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/05346c0b-ce51-4853-afc6-ba01dbc7fe0a">
 
+
+For more details see our final model
 
 
 Tableau Link: 
