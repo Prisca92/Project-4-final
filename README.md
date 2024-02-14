@@ -184,7 +184,7 @@ Heart Disease vs Cholesterol Correlation
 Heart Disease vs Max Heart Rate
 
 
-
+<img width="452" alt="Screenshot 2024-02-14 at 6 15 40 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/4064cda2-f67d-4645-8125-ad885710a7c8">
 
 
                      
