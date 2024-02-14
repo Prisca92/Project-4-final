@@ -47,9 +47,8 @@ Is there any connection between age, cholesterol, and chest paint type when it c
 
 a) Data Pre-processing
 b) Exploratory Data Analysis, 
-c) Outlier Detection & Removal, 
-d) Training and Test Split, 
-e) Cross Validation, 
+c) Training and Test Split, 
+d)Outlier Detection
 f) Model Building,  
 h) Feature Selection, 
 i) Model Evaluation.
