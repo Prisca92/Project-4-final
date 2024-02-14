@@ -81,7 +81,7 @@ Feature_Description
 
                         
                         
-                                                        EXPLORATORY DATA ANALYSIS (EDA)
+                            EXPLORATORY DATA ANALYSIS (EDA)
                         
 
 This step was used to make the original data ready for model building. This Data pre-processing step included variable scaling, converting categorical variable to numerical. In general, it is a series of tasks to make original data consumable and understandable for machine-learning models. 
@@ -155,20 +155,20 @@ Cross Validation
                      
                      
                      
-                                                   MODEL BUILDING/SELECTION
+                       MODEL BUILDING/SELECTION
 
 
 Supervised Learning/ RandomForestClassifier
 
 
-The model building process finds the model that fits best for the training data set in terms of prediction accuracy. One of the most popular approaches to achieve this goal is to iterate over multiple related machine learning models to see which one is the best fit. For this project we opted for a supervised random forest model to address our task. Supervised learning was our preference because we have labeled data, where features are organized in a tabular format alongside corresponding outputs. This setup allows us to train the model to make predictions based on input features. We focused on target variables, also known as dependent variables, which are the outcomes we aim to predict(heart disease). In our scenario, our target variable is the extent to which each feature contributes to the risk of heart disease. Three regression model classes were tested – RandomForest, DecisionTree and Linear Regression – ultemitely we decided to use the one with highest r-square  as the best fit.  Both RandomforestClassifer and the linear regression model provided an accuracy score of 90%. Ultimately RandomforestClassifier was the training model we choose as the best fit as it is the most reliable an accurate model due to its high accuracy, feature important and versatility. In the Medical sector when making predictions it is best to use the most reliable machine learning model for prediction purposes. This system ultimately can help suggest precautions to the user based on output. 
+The model building process finds the model that fits best for the training data set in terms of prediction accuracy. One of the most popular approaches to achieve this goal is to iterate over multiple related machine learning models to see which one is the best fit. For this project we opted for a supervised random forest model to address our task. Supervised learning was our preference because we have labeled data, where features are organized in a tabular format alongside corresponding outputs. This setup allows us to train the model to make predictions based on input features. We focused on target variables, also known as dependent variables, which are the outcomes we aim to predict(heart disease). In our scenario, our target variable is the extent to which each feature contributes to the risk of heart disease. Three regression model classes were tested – RandomForest, DecisionTree and Linear Regression – ultimately we decided to use the one with highest r-square  as the best fit.  Both RandomforestClassifer and the linear regression model provided an accuracy score of 90%. Ultimately RandomforestClassifier was the training model we choose as the best fit as it is the most reliable an accurate model due to its high accuracy, feature important and versatility. In the Medical sector when making predictions it is best to use the most reliable machine learning model for prediction purposes. This system ultimately can help suggest precautions to the user based on output. 
 
 
 
                                 EVALUATION
    
     
-Key insights when evelautaing the Randomforest model's effectiveness in its classification task.   
+Key insights when evaluating the Randomforest model's effectiveness in its classification task.   
 
 To better evaluate the random forest we used confusion matrix  which is a table that shows how many instances of each class were correctly or incorrectly predicted. Helps identify source errors like false positives and false negatives which we can see below:
 
@@ -240,7 +240,7 @@ Overall, this classification report suggests that the model performs well in dis
 
 
 
--We explored coorelation between individual features and the target variable can provide initial insights into potential predictors of heart disease.
+-We explored correlation between individual features and the target variable can provide initial insights into potential predictors of heart disease.
 
 
 
