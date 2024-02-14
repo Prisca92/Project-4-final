@@ -100,7 +100,7 @@ Normalizing data using git.dummies
 
 <img width="986" alt="Screenshot 2024-02-13 at 12 54 20 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/6a3a50e1-4b9b-4eaa-9de1-c85e7e523b2b">
 
-
+Balanced dataset
 
 
                      MODEL BUILDING AND SELECTION
