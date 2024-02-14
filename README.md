@@ -274,8 +274,10 @@ For more details see our final model
 
 Tableau Link:
 
+Story1
+https://public.tableau.com/views/HeartDisease_17074856563830/Story1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
-[       ](https://public.tableau.com/app/profile/mehrin.khan/viz/HeartDisease_17074856563830/Story1)
+
 <img width="612" alt="Screenshot 2024-02-13 at 7 03 19 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/8eb49e85-7ce8-4b70-8a8d-9fdef5c69935">
                         
                          
