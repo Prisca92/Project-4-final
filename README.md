@@ -148,8 +148,10 @@ Train and Test model
 
 
 
-Cross Validation
+Correlation of features 
 
+
+<img width="1014" alt="Screenshot 2024-02-14 at 2 57 28 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/75bc9dbb-c7ea-43ef-9e75-7b9d265b78e3">
 
 
                      
@@ -246,13 +248,15 @@ Overall, this classification report suggests that the model performs well in dis
 
 Heart Disease vs Cholesterol Correlation
 
-<img width="482" alt="Screenshot 2024-02-13 at 12 13 47 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/16bc86c2-33f8-415d-bf53-2d19fea17629">
+
+<img width="529" alt="Screenshot 2024-02-14 at 3 03 57 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/15937dc1-e61c-49ab-bf67-85e1fbb6002c">
+
+Heart Disease vs Heart Rate
 
 
-Heart Disease vs Age 
+<img width="508" alt="Screenshot 2024-02-14 at 3 04 09 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/e21ee4eb-cdbe-45e5-933f-e0f48eadae91">
 
 
-<img width="484" alt="Screenshot 2024-02-13 at 6 27 32 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/7174e18d-94ba-4ce2-a44d-9943f9b0c7b6">
 
 
 For more details see our final model
