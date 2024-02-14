@@ -153,6 +153,10 @@ Correlation of features
 
 <img width="1014" alt="Screenshot 2024-02-14 at 2 57 28 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/75bc9dbb-c7ea-43ef-9e75-7b9d265b78e3">
 
+High positive correlations indicate a strong positive linear relationship, while high negative correlations indicate a strong negative linear relationship. Correlations close to zero suggest little to no linear relationship.
+
+
+
 
 -We explored correlation between individual features and the target variable can provide initial insights into potential predictors of heart disease.
 
