@@ -12,7 +12,7 @@ Prisca Gossin,
 Mehrin Khan 
 
 Built With
-* Python and Packages (eg. scikit-learn,seaborn, matplotlib,pandas,numby, etc.)
+* Python and Packages (eg. scikit-learn,seaborn, matplotlib,pandas,numpy, etc.)
 * Tableau
 
 
