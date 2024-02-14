@@ -112,6 +112,9 @@ Search for Missing Values
 
 
 Data Types
+
+
+
 <img width="242" alt="Screenshot 2024-02-13 at 8 56 12 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/2feab8b0-2e27-46d9-9254-a3a4d72aca42">
 
 
