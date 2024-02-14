@@ -69,11 +69,12 @@ Data was collected from Kaggle:  https://www.kaggle.com/fedesoriano/heart-failur
 This dataset was a sample created by already combined data to focus on certain features. 
 In this dataset, 5 heart datasets are combined over 11 common features. The five datasets used for its curation derived from:
 
-Cleveland: 303 observations
-Hungarian: 294 observations
-Switzerland: 123 observations
-Long Beach VA: 200 observations
-Stalog (Heart) Data Set: 270 observations
+Observations:
+Cleveland,
+Hungarian,
+Switzerland,
+Long Beach VA,
+Stalog (Heart) Data Set: 
 Total: 1190 observations
 Duplicated: 272 observations
 
