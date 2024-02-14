@@ -281,14 +281,21 @@ Tableau Link: [
                          CONCLUSION
 
 
+
+
+Despite having a low false positive rate. We believe when making predictions it is more advantageous to falsely identify patients with heart disease. Having a High false negative rate would be more concerning as the aim of this model is to not only identify patients at risk but to also ensure healthcare professions can give  recommendations for managing and reducing the risk of heart disease, including lifestyle modifications and preventive measures, to improve overall health and minimize disease risk for at-risk patients.
+
+
+
 Limitations:
                          
 
 
 Things to consider for further analysis:
-
+Yes, Further analysis couldve been conducted
+-Not limiting ourselves to an already sampled dataset, using all the data availble from the original data collected and combine it based on additional features.
 - Dive in deeper into feature importance to re-evaluate the performance of the random forest model to identify interactions between features.
- - Focus on a specific region or compare certain regions this would allow for further geographical analysis in relations to age,sex,resting blood pressure(environmental factors such as altitude,temperature,diet, physical activity patterns,stress),cholesterol(dietary habits),fasting blood sugar(geographical variationin diet, physical activity),max heart rate(altitude and temp), and excersice induced angina(air quality),oldpeak(socioeconomic factors). Understanding how these geographical factors interact with individual characteristics and lifestyle behaviors can provide insights into regional disparities in heart disease risk and guide targeted interventions and public health initiatives.
+- Focus on a specific region or compare certain regions this would allow for further geographical analysis in relations to age,sex,resting blood pressure(environmental factors such as altitude,temperature,diet, physical activity patterns,stress),cholesterol(dietary habits),fasting blood sugar(geographical variationin diet, physical activity),max heart rate(altitude and temp), and excersice induced angina(air quality),oldpeak(socioeconomic factors). Understanding how these geographical factors interact with individual characteristics and lifestyle behaviors can provide insights into regional disparities in heart disease risk and guide targeted interventions and public health initiatives.
  - 
 <img width="425" alt="Screenshot 2024-02-13 at 1 45 38 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/a447217e-a50f-477f-b6dd-cc6aa3c3e50c"> 
  
