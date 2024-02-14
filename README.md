@@ -197,18 +197,6 @@ Confusion Matrix
 <img width="530" alt="Screenshot 2024-02-13 at 4 45 14 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/8c93e7ca-32a7-4c72-8db1-1f630200f718">
 
 
- 
-
-
-
-Feature Importance
-
-
-
-<img width="720" alt="Screenshot 2024-02-13 at 4 45 40 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/877a6141-ebc6-4688-8149-846967a0c2db">
-
-
-
 Classification_Report
 
 
@@ -253,6 +241,14 @@ Accuracy:
 Accuracy measures the overall correctness of the model's predictions, regardless of class.
 The model achieves an accuracy of 0.90, indicating that it correctly predicts the class label for 90% of the instances in the dataset.
 Overall, this classification report suggests that the model performs well in distinguishing between the two classes, with high precision, recall, and F1-score values. The high accuracy and balanced performance metrics indicate that the model is effective in its classification task.Over all superior performance.
+
+
+Feature Importance
+
+
+
+<img width="720" alt="Screenshot 2024-02-13 at 4 45 40 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/877a6141-ebc6-4688-8149-846967a0c2db">
+
 
 
 For more details see our final model
