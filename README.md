@@ -109,6 +109,14 @@ Search for Missing Values
 <img width="528" alt="Screenshot 2024-02-12 at 8 58 15 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/3a8c372f-d5ad-46ca-8c6c-e7b203bde925">
 
 
+
+
+Data Types
+<img width="242" alt="Screenshot 2024-02-13 at 8 56 12 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/2feab8b0-2e27-46d9-9254-a3a4d72aca42">
+
+
+
+
 Examine unique values
 
 
