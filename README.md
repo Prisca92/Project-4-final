@@ -80,18 +80,20 @@ Feature_Description
 
                         
                         
-                                                               Exploratory Data Analysis (EDA)
+                                                        EXPLORATORY DATA ANALYSIS (EDA)
                         
 
 This step was used to make the original data ready for model building. This Data pre-processing step included variable scaling, converting categorical variable to numerical. In general, it is a series of tasks to make original data consumable and understandable for machine-learning models. 
 
-We processed the data by:
--Normalizing the data
--Renaming columns
--Transforming columns to be numerical features
--using pd.get_dummies to convert categorical data to numerical features
--Converting file to csv file
+Processing:
+- Normalizing the data
+- Renaming columns
+- Transforming columns to be numerical features
+- using pd.get_dummies to convert categorical data to numerical features
+- Converting file to csv file
 - Check for balance
+
+
 
 
 Data Ditribution using Histogram graph
@@ -138,7 +140,7 @@ Cross Validation
                      
                      
                      
-                                                   MODEL BUILDING AND SELECTION
+                                                   MODEL BUILDING/SELECTION
 
 
 Supervised Learning/ RandomForestClassifier
