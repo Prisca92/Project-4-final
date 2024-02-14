@@ -190,7 +190,10 @@ Classification_Report
 
 
 
-This classification report provides a comprehensive evaluation of a binary classification model's performance. Here's the analysis of each metric:
+This classification report provides a comprehensive evaluation of a binary classification model's performance.
+
+
+Analysis of each metric:
 
 Precision:
 
