@@ -50,8 +50,7 @@ b) Exploratory Data Analysis,
 c) Outlier Detection & Removal, 
 d) Training and Test Split, 
 e) Cross Validation, 
-f) Model Building, 
-g) Model evaluation & comparison, 
+f) Model Building,  
 h) Feature Selection, 
 i) Model Evaluation.
                     
