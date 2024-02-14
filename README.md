@@ -154,7 +154,21 @@ Correlation of features
 <img width="1014" alt="Screenshot 2024-02-14 at 2 57 28 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/75bc9dbb-c7ea-43ef-9e75-7b9d265b78e3">
 
 
-                     
+-We explored correlation between individual features and the target variable can provide initial insights into potential predictors of heart disease.
+
+
+
+Heart Disease vs Cholesterol Correlation
+
+
+<img width="529" alt="Screenshot 2024-02-14 at 3 03 57 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/15937dc1-e61c-49ab-bf67-85e1fbb6002c">
+
+Heart Disease vs Heart Rate
+
+
+<img width="508" alt="Screenshot 2024-02-14 at 3 04 09 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/e21ee4eb-cdbe-45e5-933f-e0f48eadae91">
+
+
                      
                      
                        MODEL BUILDING/SELECTION
@@ -239,24 +253,6 @@ Accuracy:
 Accuracy measures the overall correctness of the model's predictions, regardless of class.
 The model achieves an accuracy of 0.90, indicating that it correctly predicts the class label for 90% of the instances in the dataset.
 Overall, this classification report suggests that the model performs well in distinguishing between the two classes, with high precision, recall, and F1-score values. The high accuracy and balanced performance metrics indicate that the model is effective in its classification task.Over all superior performance.
-
-
-
--We explored correlation between individual features and the target variable can provide initial insights into potential predictors of heart disease.
-
-
-
-Heart Disease vs Cholesterol Correlation
-
-
-<img width="529" alt="Screenshot 2024-02-14 at 3 03 57 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/15937dc1-e61c-49ab-bf67-85e1fbb6002c">
-
-Heart Disease vs Heart Rate
-
-
-<img width="508" alt="Screenshot 2024-02-14 at 3 04 09 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/e21ee4eb-cdbe-45e5-933f-e0f48eadae91">
-
-
 
 
 For more details see our final model
