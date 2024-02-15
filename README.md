@@ -26,18 +26,10 @@ Our objective is to create a machine learning model for detecting heart disease 
 Questions to Investigate: 
 
 
-What are the key features or attributes suspected to be associated with heart disease?
+1. What are the key features or attributes suspected to be associated with heart disease?
+2. What geographical factors contribute to the risk of heart disease?
+3. Are there any patterns or relationships between the features and the target variable (heart disease)?
 
-
-What geographical factors contribute to being at risk of heart disease?
-
-
-Are there any patterns or relationships between the features and the target variable (heart disease)?
-
-
-Is there any connection between age, cholesterol, and chest paint type when it comes to heart disease?
-                                  
-                                  
                                   
                                   
                                   
@@ -49,23 +41,21 @@ a) Data Pre-processing
 b) Exploratory Data Analysis, 
 c) Training and Test Split, 
 d)Outlier Detection
-f) Model Building,  
-h) Feature Selection, 
-i) Model Evaluation.
+e) Model Building,  
+f) Feature Selection, 
+g) Model Evaluation.
                     
                      
                      
                      DATA COLLECTION/DATA PRE-PROCESSING
 
-Data pre-processing is an essential step in machine learning to represent data suitable for the algorithms and classification. Data collection is simply reading the data, specifying the type of variables, as well as which variable is the target to predict.
-
-
+Data preprocessing is a vital step in machine learning, essential for preparing data to be suitable for algorithms and classification tasks. Data collection involves reading the data, identifying variable types, and determining the target variable for prediction.
 
 Data was collected from Kaggle:  https://www.kaggle.com/fedesoriano/heart-failure-prediction
 
 
-This dataset was a sample created by already combined data to focus on certain features. 
-In this dataset, 5 heart datasets are combined over 11 common features. The five datasets used for its curation derived from:
+This dataset is a sample created by pre-existing combined data to focus on specific features. 
+In this dataset, 5 heart datasets are combined over 11 common features. The five datasets used for it's curation derived from:
 
 Observations:
 Cleveland,
@@ -88,7 +78,7 @@ Original Data
 
 
 
-Feature_Description
+Feature Description
 
 <img width="613" alt="Screenshot 2024-02-13 at 4 40 36 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/a0a58ceb-7a72-4df5-8058-3a569b8a8d54">
 
@@ -98,15 +88,14 @@ Feature_Description
                             EXPLORATORY DATA ANALYSIS (EDA)
                         
 
-This step was used to make the original data ready for model building. This Data pre-processing step included variable scaling, converting categorical variable to numerical. In general, it is a series of tasks to make original data consumable and understandable for machine-learning models. 
+This step was used to make the original data ready for model building. In general, it is a series of tasks to make original data consumable and understandable for machine-learning models. 
 
 Processing:
 - Normalizing the data
-- Renaming columns
-- Transforming columns to be numerical features
-- using pd.get_dummies to convert categorical data to numerical features
+- Adding columns
+- Convert categorical data to numerical features
 - Converting file to csv file
-- Check for balance
+- Check balance
 
 
 
@@ -117,7 +106,7 @@ Data Ditribution using Histogram graph
 <img width="591" alt="Screenshot 2024-02-12 at 8 57 29 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/421c986d-320d-42dc-afe7-a856cd5113cc">
 
 
-Search for Missing Values
+Examine for missing values: None
 
 
 <img width="528" alt="Screenshot 2024-02-12 at 8 58 15 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/3a8c372f-d5ad-46ca-8c6c-e7b203bde925">
@@ -141,7 +130,7 @@ Examine unique values
 
 
 
-Normalizing data using git.dummies
+Normalizing data 
 
 
 <img width="986" alt="Screenshot 2024-02-13 at 12 54 20 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/6a3a50e1-4b9b-4eaa-9de1-c85e7e523b2b">
@@ -149,7 +138,7 @@ Normalizing data using git.dummies
 
 
 
-Balanced dataset
+Balanced dataset: Yes
 
 <img width="310" alt="Screenshot 2024-02-13 at 8 09 46 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/6aa70a11-8077-475a-b2c7-551e1c2db5ee">
 
@@ -162,11 +151,6 @@ Heart Disease vs Max Heart Rate
 <img width="452" alt="Screenshot 2024-02-14 at 6 15 40 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/4064cda2-f67d-4645-8125-ad885710a7c8">
 
                   
-
-
-
-
-Train and Test model
 
 
 
@@ -201,17 +185,17 @@ Heart Disease vs Max Heart Rate
                        MODEL BUILDING/SELECTION
 
 
-Supervised Learning/ RandomForestClassifier
+Supervised Learning/ Random Forest 
 
 
-The model building process finds the model that fits best for the training data set in terms of prediction accuracy. One of the most popular approaches to achieve this goal is to iterate over multiple related machine learning models to see which one is the best fit. For this project three regression model classes were tested – RandomForest, DecisionTree and Linear Regression – ultimately we decided to use the one with highest r-square  as the best fitto address our task. Supervised learning was our preference because we have labeled data, where features are organized in a tabular format alongside corresponding outputs. This setup allows us to train the model to make predictions based on input features. We focused on target variables, also known as dependent variables, which are the outcomes we aim to predict(heart disease). In our scenario, our target variable is the extent to which each feature contributes to the risk of heart disease.  Both RandomforestClassifer and the linear regression model provided an accuracy score of 90%. Ultimately RandomforestClassifier was the training model we choose as the best fit as it is the most reliable an accurate model due to its high accuracy, feature important and versatility. In the Medical sector when making predictions it is best to use the most reliable machine learning model for prediction purposes. This system ultimately can help suggest precautions to the user based on output. 
+The model building process finds the model that fits best for the training data set in terms of prediction accuracy. One of the most popular approaches to achieve this goal is to iterate over multiple related machine learning models to see which one is the best fit. For this project three regression model classes were tested – RandomForest, DecisionTree and Linear Regression – ultimately we decided to use the one with highest accuracy score as the best fit to address our task. Supervised learning was our preference because we have labeled data, where features are organized in a tabular format alongside corresponding outputs. This setup allows us to train the model to make predictions based on input features. We focused on target variables, also known as dependent variables, which are the outcomes we aim to predict(heart disease). In our scenario, our target variable is the extent to which each feature contributes to the risk of heart disease.  Both RandomforestClassifer and the linear regression model provided an accuracy score of 90%. Ultimately RandomforestClassifier was the training model we choose as the best fit as it is the most reliable an accurate model due to its high accuracy, feature important and versatility. In the Medical sector when making predictions it is best to use the most reliable machine learning model for prediction purposes. This system ultimately can help suggest precautions to the user based on output. 
 
 
 
                                 EVALUATION
    
     
-Key insights when evaluating the Randomforest model's effectiveness in its classification task.   
+Key insights when evaluating the Random forest model's effectiveness in its classification task.   
 
 To better evaluate the random forest we used confusion matrix  which is a table that shows how many instances of each class were correctly or incorrectly predicted. Helps identify source errors like false positives and false negatives which we can see below:
 
@@ -224,7 +208,7 @@ Confusion Matrix
 <img width="530" alt="Screenshot 2024-02-13 at 4 45 14 AM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/8c93e7ca-32a7-4c72-8db1-1f630200f718">
 
 
-Classification_Report
+Classification Report
 
 
 <img width="513" alt="Screenshot 2024-02-13 at 12 52 35 PM" src="https://github.com/Prisca92/Project-4-final/assets/140542648/85f9d404-a2b0-4875-b5bf-895ce65ade87">
@@ -240,8 +224,8 @@ Analysis of each metric:
 Precision:
 
 Precision measures the proportion of true positive predictions among all positive predictions made by the model.
-For class 0 (presumably negative instances), the precision is 0.88, indicating that 88% of the instances predicted as negative are indeed negative.
-For class 1 (presumably positive instances), the precision is 0.92, indicating that 92% of the instances predicted as positive are indeed positive.
+For class 0,(negative instances) the precision is 0.88, indicating that 88% of the instances predicted as negative are indeed negative.
+For class 1, ( positive instances), the precision is 0.92, indicating that 92% of the instances predicted as positive are indeed positive.
 Overall, the model has high precision for both classes, suggesting that it makes relatively few false positive predictions.
 
 Recall:
@@ -270,7 +254,7 @@ The model achieves an accuracy of 0.90, indicating that it correctly predicts th
 Overall, this classification report suggests that the model performs well in distinguishing between the two classes, with high precision, recall, and F1-score values. The high accuracy and balanced performance metrics indicate that the model is effective in its classification task.Over all superior performance.
 
 
-Feature Importance
+Feature Importances
 
 
 
@@ -278,7 +262,7 @@ Feature Importance
 
 
 
-For more details see our final model
+For more details see our Final Model File
 
 
 Tableau Link:
